@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build the Docker image
         run: |
-          docker image build \
+          docker build \
             -t rhhilario-hub/web:ch09 \
             web
