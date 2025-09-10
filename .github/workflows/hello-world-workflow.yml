@@ -1,0 +1,8 @@
+---
+name: hello-world-workflow
+on: [push]
+jobs:
+  say-hello:
+    run-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world!"
