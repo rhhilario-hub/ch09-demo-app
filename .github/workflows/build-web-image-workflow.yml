@@ -10,5 +10,5 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build \
-            -t rhhilario-hub/web:ch09 \
+            -t rhhilario-hub/ch09-demo-app/web:ch09 \
             web
